@@ -21,4 +21,7 @@ options:
 
 ## Example
 ```
+# Dont forget to do port-forwarding
+# echo 1 > /proc/sys/net/ipv4/ip_forward
+
 sudo python arpSpoof.py --target 10.0.2.15 --gateway 10.0.2.1
