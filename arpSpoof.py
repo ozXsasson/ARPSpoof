@@ -7,8 +7,8 @@ import argparse
 
 def getArguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--target", dest="target", help="Target IP")
-    parser.add_argument("-g", "--gateway", dest="gateway", help="Gateway IP")
+    parser.add_argument("-t", "--target", dest="target", help="Target IP (Victim address)")
+    parser.add_argument("-g", "--gateway", dest="gateway", help="Gateway IP (Router address)")
     options = parser.parse_args()
     return options
 
